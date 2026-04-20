@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle at top right, #2f1160, #10041f 45%, #070210 100%);
+}
+
+.prose-news p {
+  @apply mt-4 leading-7 text-purple-100/95;
+}
